@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50; /* Dark blue-gray text */
+    background-color: #ecf0f1; /* Light gray background */
+}
+
+header {
+    background: #16a085; /* Teal */
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ffffff; /* White links */
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1abc9c; /* Light green */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.article {
+    background: #ffffff; /* White background */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article-content {
+    padding: 1rem;
+}
+
+.article-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #34495e; /* Dark blue */
+}
+
+.article-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.article-content a {
+    color: #16a085; /* Teal */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.article-content a:hover {
+    color: #1abc9c; /* Light green */
+}
+
+.article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #34495e; /* Dark blue */
+    color: #ecf0f1; /* Light gray text */
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .social-links a {
+    color: #ecf0f1; /* Light gray links */
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #1abc9c; /* Light green */
+}
