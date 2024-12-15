@@ -28,6 +28,9 @@ Here are screenshots of the Home Page:
 3. **Footer:**
    ![Footer Screenshot](./images/Screenshot%202024-12-15%20191503.png)
 
+4. **Website:**
+   ![Website Screenshot](./images/Screenshot%202024-12-15%20193754.png)
+
 ## File Structure
 
 ```
