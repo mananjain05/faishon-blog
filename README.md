@@ -20,7 +20,7 @@ The main page showcases:
 Here are screenshots of the Home Page:
 
 1. **Header and Navigation:**
-   ![Header Screenshot](./images/header.png)
+   ![Header Screenshot](./images/Screenshot%202024-12-15%20191429.png))
 
 2. **Articles Grid:**
    ![Articles Screenshot](./images/articles.png)
